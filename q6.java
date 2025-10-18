@@ -17,10 +17,11 @@ public class q6 {
                     minIndex = j;
                 }
             }
-            
+            if (i!=minIndex){
             int temp = arr[i];
             arr[i] = arr[minIndex];
             arr[minIndex] = temp;
+            }
         }
 
             for (int num : arr) {
