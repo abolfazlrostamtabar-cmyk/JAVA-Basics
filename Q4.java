@@ -11,9 +11,6 @@ public class Q4 {
         int x = 0;
         x = s.trim().split(" +").length;
 
-
-
-
         int vowels = 0;
         int otherLetters = 0;
         int spaces = 0;
@@ -41,10 +38,8 @@ public class Q4 {
             }
         }
 
-        int words = spaces + 1;
-
         System.out.println("Number of vowels = " + vowels);
-        System.out.println("Number of other letters = " + otherLetters);
+        System.out.println("Number of other letters = " + otherLetters + digits);
         System.out.println("Number of spaces = " + spaces);
         System.out.println("Number of digits = " + digits);
         System.out.println("Number of words = " + x);
